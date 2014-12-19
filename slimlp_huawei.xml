@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <manifest>
+
+     <remote  name="bitbucket" fetch="https://bitbucket.org/" />
+
+     <!-- Device Folders, Kernel & Proprietary BLOBS -->
+     <project path="vendor/huawei" name="chil360/proprietary_vendor_huawei" remote="bitbucket" revision="lp5.0"/>
+     <project path="kernel/huawei/huawei-kernel-3.4" name="chil360/chil360-kernel" remote="bitbucket" revision="lp5.0"/>
+     <project path="device/huawei/msm7x27a-common" name="chil360/android_device_huawei_msm7x27a-common" remote="bitbucket" revision="lp5.0"/>
+     <project path="device/huawei/u8833" name="chil360/android_device_huawei_u8833" remote="bitbucket" revision="lp5.0"/>
+
+     <!-- WIFI -->
+     <project path="hardware/atheros/wifi/ath6kl-huawei" name="Dazzozo/android_hardware_atheros_wifi_ath6kl-huawei" remote="github" revision="master" />
+     <project path="hardware/atheros/wlan" name="chil360/android_hardware_atheros_wlan" remote="bitbucket" revision="lp5.0" />
+
+     <!-- GPS -->
+     <remove-project name="SlimRoms/hardware_qcom_gps" />
+     <project path="hardware/qcom/gps" name="chil360/android_hardware_qcom_gps" remote="github" revision="kitkat" />
+
+     <!-- QCOM Hardware -->
+     <project path="hardware/qcom/display-caf/msm7x27a" name="chil360/android_hardware_qcom_display-caf" remote="bitbucket" revision="lp5.0" />
+     <project path="hardware/qcom/media-caf/msm7x27a" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-12.0" />
+
+     <!-- FM -->
+     <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-12.0" />
+     
+</manifest>
+
+ 
