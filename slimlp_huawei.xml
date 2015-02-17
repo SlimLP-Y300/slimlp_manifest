@@ -10,7 +10,7 @@
      <project path="device/huawei/u8825" name="SlimLP-Y300/android_device_huawei_u8825" remote="github" revision="lp5.0"/>
 
      <!-- WIFI -->
-     <project path="hardware/atheros/wifi/ath6kl-huawei" name="Dazzozo/android_hardware_atheros_wifi_ath6kl-huawei" remote="github" revision="master" />
+     <project path="hardware/atheros/wifi/ath6kl-huawei" name="SlimLP-Y300/android_hardware_atheros_wifi_ath6kl-huawei" remote="github" revision="master" />
      <project path="hardware/atheros/wlan" name="SlimLP-Y300/android_hardware_atheros_wlan" remote="github" revision="lp5.0" />
 
      <!-- GPS -->
