@@ -8,7 +8,7 @@ Build Instructions
 
 1. Initialize repo using the SlimLP manifest (CAF branch)
     
-        repo init -u git://github.com/SlimRoms/platform_manifest.git -b lp5.0-caf
+        repo init -u git://github.com/SlimRoms/platform_manifest.git -b lp5.1
 
 2. Add my local manifest
 
@@ -32,10 +32,3 @@ Build Instructions
         For G330:
             brunch u8825
 
-NOTE:
-   
-   The JNI Generator [patch] included in android_device_huawei_msm7x27a-common is required for building the rom in my Arch Linux environment.
-   For Ububtu based distros, this patch should not be needed to build the ROM so can be deleted.
-
-
-[patch]:https://github.com/SlimLP-Y300/android_device_huawei_msm7x27a-common/blob/lp5.0/patches/external_chromium_org/0001-Fix-JNI-Generator.patch
