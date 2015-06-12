@@ -15,7 +15,7 @@
 
      <!-- GPS -->
      <remove-project name="SlimRoms/hardware_qcom_gps" />
-     <project path="hardware/qcom/gps" name="chil360/android_hardware_qcom_gps" remote="github" revision="kitkat" />
+     <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="cm-11.0" />
 
      <!-- QCOM Hardware -->
      <project path="hardware/qcom/display-caf/msm7x27a" name="SlimLP-Y300/android_hardware_qcom_display-caf" remote="github" revision="lp5.1" />
